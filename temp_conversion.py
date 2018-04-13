@@ -8,7 +8,7 @@ def fahr_to_celsius(fahr):
     Arguments:
     fahr -- the temperature in Fahrenheit
     """
-    celsius = ((fahr - 32) * (5/9)) 
+    celsius = ((fahr - 32) * (5./9)) 
     return celsius
 
 def fahr_to_kelvin(fahr):
